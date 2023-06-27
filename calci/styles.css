@@ -1,0 +1,47 @@
+body{
+    background:  #81a8f1;
+} 
+
+.mainbody{
+    margin-left: 40%;
+    margin-top: 5%;
+    background: linear-gradient( rgb(248, 195, 195), rgb(71, 110, 250));
+    width: 250px;
+    height:370px ;
+    border:solid 6px;
+    border-color: black;
+    border-radius: 12px;
+}
+#screen{
+    border-width: 5px;
+    margin-left: 11px;
+    width: 85%;
+    height: 41px;
+    margin-top: 13px;
+    border-radius: 8px;
+    font-size: xx-large;
+    pointer-events: none;
+}
+.but{
+    width: 200px;
+    height: 300px;
+    margin-left: 1px;  
+}
+
+button{
+    width: 30px;
+    height: 35px;
+    margin-top: 16px;
+    background: linear-gradient( rgb(248, 195, 195), rgb(71, 110, 250));
+    margin-left: 17px;
+    border-radius: 34px;
+    font-size: 24px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+button:hover{
+    cursor: pointer;
+    background: linear-gradient( rgb(246, 104, 104), rgb(40, 84, 244)); ;
+}
